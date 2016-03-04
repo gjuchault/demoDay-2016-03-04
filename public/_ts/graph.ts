@@ -186,8 +186,15 @@ class Graph {
         const deltaX  : number = x2 - x1;
         const deltaY  : number = y2 - y1;
 
-        const wantedX1: number = x1 + (deltaX * ratio);
-        const wantedY1: number = y1 + (deltaY * ratio);
+        let wantedX1: number = x1 + (deltaX * ratio);
+        let wantedY1: number = y1 + (deltaY * ratio);
+
+        if (isNaN(wantedX1)) {
+            wantedX1 = x1;
+        }
+        if (isNaN(wantedY1)) {
+            wantedY1 = y1;
+        }
 
         return (what === 'x') ? wantedX1 : wantedY1;
     }

@@ -1,6 +1,6 @@
-const $addButton : Element = document.querySelector('.add');
-const $addPrompt : Element = document.querySelector('.friendname');
-const $friendName: HTMLInputElement = <HTMLInputElement>$addPrompt.querySelector('input');
+const $addButton : HTMLButtonElement = <HTMLButtonElement>document.querySelector('.add');
+const $addPrompt : Element           = document.querySelector('.friendname');
+const $friendName: HTMLInputElement  = <HTMLInputElement>$addPrompt.querySelector('input');
 
 let isPrompting: boolean = false;
 

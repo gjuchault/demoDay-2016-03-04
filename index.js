@@ -26,7 +26,7 @@ io.on('connection', socket => {
             // All single users still not related
             return r.table('users').filter(user =>
                 r.expr(allNames).contains(user('name')).not()
-            ).without('id');
+            );
         })
         .then(additionalData => {
             for (let singleUser of additionalData) {
@@ -75,9 +75,7 @@ io.on('connection', socket => {
         console.log(`Remove { name: ${name} } from users and all its links`);
         r
             .table('users')
-            .filter({
-                name: name
-            })
+            .get(name)
             .delete()
             .run()
             .then(() => {

@@ -56,8 +56,17 @@ main > button {
     line-height: 45px;
     position: absolute;
     right: 10px;
-    transition: box-shadow .2s ease-out;
+    transition: box-shadow .2s ease-out, opacity .2s ease-out;
     width: 65px;
+}
+
+main > button:disabled {
+    opacity: 0.5;
+}
+
+main > button.disconnect {
+    background-color: #2C3E50;
+    right: 85px;
 }
 
 main > button:not(:disabled):hover {
