@@ -1,0 +1,97 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #ECF0F1;
+}
+
+html, body, main {
+	height: 100%;
+}
+
+.prompt {
+    background-color: #3498db;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: -70px;
+    transition: top .2s ease-out;
+    width: 100%;
+}
+
+.prompt.active {
+	top: 0;
+}
+
+.prompt > input {
+    border: 1px solid #2C3E50;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+main {
+	padding: 10px;
+    transition: padding-top .2s ease-out;
+}
+
+.prompt.active ~ main {
+	padding-top: 80px;
+}
+
+main > span:first-child {
+    position: absolute;
+}
+
+main > button {
+    background-color: #E74C3C;
+    box-shadow: 0 2px 2px 0    rgba(0, 0, 0, .14),
+                0 3px 1px -2px rgba(0, 0, 0, .2),
+                0 1px 5px 0    rgba(0, 0, 0, .12);
+    border: 0;
+    color: #fff;
+    font-size: 45px;
+    height: 47px;
+    line-height: 45px;
+    position: absolute;
+    right: 10px;
+    transition: box-shadow .2s ease-out;
+    width: 65px;
+}
+
+main > button:not(:disabled):hover {
+    cursor: pointer;
+    box-shadow: 0 8px 10px 0    rgba(0, 0, 0, .28),
+                0 4px 8px  -2px rgba(0, 0, 0, .4),
+                0 2px 20px 0    rgba(0, 0, 0, .24);
+}
+
+main > button:focus {
+    outline: 0;
+}
+
+#graph {
+    height: calc(100% - 120px);
+    padding-top: 60px;
+    text-align: center;
+}
+
+#graph line.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 3px;
+}
+
+#graph circle {
+    fill: #3498DB;
+    stroke: #2C3E50;
+    stroke-width: 1.5px;
+}
+
+#graph text {
+    fill: #fff;
+    font: 10px 'monacoregular';
+    font-weight: 600;
+    pointer-events: none;
+}

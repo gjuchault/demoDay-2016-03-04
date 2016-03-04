@@ -1,0 +1,66 @@
+2016-03-02T16:27:23.573865785 0.017109s notice: Recursively removing directory /home/gabriel/Documents/demoday/rethinkdb_data/tmp
+2016-03-02T16:27:23.578510683 0.021753s notice: Initializing directory /home/gabriel/Documents/demoday/rethinkdb_data
+2016-03-02T16:27:23.578623185 0.021865s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/gabriel/Documents/demoday/rethinkdb_data' did not already exist or is empty.)
+2016-03-02T16:27:23.579140080 0.022382s notice: Running rethinkdb 2.2.5~0wily (GCC 5.2.1)...
+2016-03-02T16:27:23.580942663 0.024186s notice: Running on Linux 4.2.0-30-generic x86_64
+2016-03-02T16:27:23.581018356 0.024260s notice: Loading data from directory /home/gabriel/Documents/demoday/rethinkdb_data
+2016-03-02T16:27:23.599060037 0.042303s info: Automatically using cache size of 1101 MB
+2016-03-02T16:27:23.599741684 0.042984s notice: Listening for intracluster connections on port 29015
+2016-03-02T16:27:23.604341881 0.047584s notice: Listening for client driver connections on port 28015
+2016-03-02T16:27:23.604582776 0.047825s notice: Listening for administrative HTTP connections on port 8080
+2016-03-02T16:27:23.604584162 0.047826s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-03-02T16:27:23.604585724 0.047828s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-02T16:27:23.604587345 0.047829s notice: Server ready, "demoday_p6u" 9c5ad4ee-2bc2-4ae2-9b09-2671c6b8a0b7
+2016-03-02T16:31:45.929574818 0.009011s notice: Running rethinkdb 2.2.5~0wily (GCC 5.2.1)...
+2016-03-02T16:31:45.932557907 0.011996s notice: Running on Linux 4.2.0-30-generic x86_64
+2016-03-02T16:31:45.932634644 0.012071s notice: Loading data from directory /home/gabriel/Documents/demoday/rethinkdb_data
+2016-03-02T16:31:45.939407879 0.018845s info: Automatically using cache size of 1463 MB
+2016-03-02T16:31:45.939756396 0.019193s notice: Listening for intracluster connections on port 29015
+2016-03-02T16:31:45.940598718 0.020035s notice: Listening for client driver connections on port 28015
+2016-03-02T16:31:45.940785023 0.020221s notice: Listening for administrative HTTP connections on port 8080
+2016-03-02T16:31:45.940787469 0.020224s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-03-02T16:31:45.940787777 0.020224s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-02T16:31:45.940788720 0.020225s notice: Server ready, "demoday_p6u" 9c5ad4ee-2bc2-4ae2-9b09-2671c6b8a0b7
+2016-03-03T17:12:08.609180874 27205.530917s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T17:12:08.614975568 27205.536711s notice: Shutting down client connections...
+2016-03-03T17:12:08.615230894 27205.536966s notice: All client connections closed.
+2016-03-03T17:12:08.615242972 27205.536978s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T17:12:08.615691452 27205.537427s notice: Storage engine shut down.
+2016-03-04T09:11:33.671613583 0.065567s notice: Running rethinkdb 2.2.5~0wily (GCC 5.2.1)...
+2016-03-04T09:11:33.675573154 0.069528s notice: Running on Linux 4.2.0-30-generic x86_64
+2016-03-04T09:11:33.675662116 0.069616s notice: Loading data from directory /home/gabriel/Documents/demoday/rethinkdb_data
+2016-03-04T09:11:33.699645792 0.093600s info: Automatically using cache size of 1346 MB
+2016-03-04T09:11:33.699992389 0.093946s notice: Listening for intracluster connections on port 29015
+2016-03-04T09:11:33.705881351 0.099835s notice: Listening for client driver connections on port 28015
+2016-03-04T09:11:33.705953673 0.099907s notice: Listening for administrative HTTP connections on port 8080
+2016-03-04T09:11:33.705954996 0.099909s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-03-04T09:11:33.705955843 0.099910s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-04T09:11:33.705956798 0.099910s notice: Server ready, "demoday_p6u" 9c5ad4ee-2bc2-4ae2-9b09-2671c6b8a0b7
+2016-03-04T09:24:08.083502047 754.477456s info: Table 28145233-30bd-47f1-9049-ada371454082: Added replica on this server.
+2016-03-04T09:24:09.721906673 756.115861s info: Table 28145233-30bd-47f1-9049-ada371454082: Starting a new Raft election for term 1.
+2016-03-04T09:24:09.724604213 756.118558s info: Table 28145233-30bd-47f1-9049-ada371454082: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-04T09:24:20.446182839 766.840137s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: Added replica on this server.
+2016-03-04T09:24:22.198252010 768.592206s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: Starting a new Raft election for term 1.
+2016-03-04T09:24:22.204549312 768.598504s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-04T09:24:30.956453112 777.350407s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: Configuration is changing.
+2016-03-04T09:25:02.690405047 809.084359s info: Table 28145233-30bd-47f1-9049-ada371454082: Configuration is changing.
+2016-03-04T09:25:11.175397236 817.569351s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: Configuration is changing.
+2016-03-04T10:53:05.245496847 6091.639452s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-04T10:53:05.245648432 6091.639603s notice: Shutting down client connections...
+2016-03-04T10:53:05.250510561 6091.644465s notice: All client connections closed.
+2016-03-04T10:53:05.250515823 6091.644470s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-04T10:53:05.277650191 6091.671605s notice: Storage engine shut down.
+2016-03-04T11:58:02.969770343 0.026114s notice: Running rethinkdb 2.2.5~0wily (GCC 5.2.1)...
+2016-03-04T11:58:02.972135944 0.028481s notice: Running on Linux 4.2.0-30-generic x86_64
+2016-03-04T11:58:02.972213036 0.028557s notice: Loading data from directory /home/gabriel/Documents/demoday/rethinkdb_data
+2016-03-04T11:58:02.979226207 0.035570s info: Automatically using cache size of 778 MB
+2016-03-04T11:58:02.979544987 0.035888s notice: Listening for intracluster connections on port 29015
+2016-03-04T11:58:03.001387646 0.057731s notice: Listening for client driver connections on port 28015
+2016-03-04T11:58:03.001661608 0.058005s notice: Listening for administrative HTTP connections on port 8080
+2016-03-04T11:58:03.001662367 0.058006s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-03-04T11:58:03.001692529 0.058036s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-04T11:58:03.001693442 0.058037s notice: Server ready, "demoday_p6u" 9c5ad4ee-2bc2-4ae2-9b09-2671c6b8a0b7
+2016-03-04T11:58:04.119936204 1.176280s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: Starting a new Raft election for term 2.
+2016-03-04T11:58:04.126813006 1.183157s info: Table 70036e8b-db2b-4d39-a417-da8a3a4d4d93: This server is Raft leader for term 2. Latest log index is 4.
+2016-03-04T11:58:04.743358132 1.799702s info: Table 28145233-30bd-47f1-9049-ada371454082: Starting a new Raft election for term 2.
+2016-03-04T11:58:04.748868380 1.805212s info: Table 28145233-30bd-47f1-9049-ada371454082: This server is Raft leader for term 2. Latest log index is 3.

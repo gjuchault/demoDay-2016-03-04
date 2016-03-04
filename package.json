@@ -1,0 +1,24 @@
+{
+  "name": "demoDay-2016-03-04",
+  "version": "1.0.0",
+  "description": "RethinkDB's changefeeds and d3 simple friends graph",
+  "main": "index.js",
+  "scripts": {
+    "serve": "static",
+    "tsc": "tsc -p public/_ts --outFile public/scripts.js",
+    "tsc:watch": "npm run tsc -- --watch",
+    "startdb": "rethinkdb",
+    "start": "node index.js"
+  },
+  "author": "Gabriel Juchault <gabriel.juchault@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^3.5.16",
+    "express": "^4.13.4",
+    "node-static": "^0.7.7",
+    "normalize.css": "^3.0.3",
+    "rethinkdbdash": "^2.2.18",
+    "socket.io": "^1.4.5",
+    "typescript": "^1.8.7"
+  }
+}
