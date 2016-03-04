@@ -1,3 +1,4 @@
-node_modules
+node_modules/
 public/scripts.js
 public/scripts.js.map
+rethinkdb_data/
